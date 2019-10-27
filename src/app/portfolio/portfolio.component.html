@@ -1,0 +1,18 @@
+<p>portfolio works!</p>
+
+<div *ngFor="let project of projects">
+    <nb-card>
+        <h3>
+            <a [title]="project.name + ' details'">
+                {{project.name}}
+            </a>
+        </h3>
+        <p *ngIf="project.description">
+            Description: {{project.description}}
+        </p>
+        <button mat-raised-button (click)="share()">
+            Share
+        </button>
+    </nb-card>
+    
+</div>

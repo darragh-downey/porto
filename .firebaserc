@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-ac86c": {
+      "hosting": {
+        "my-portfolio": [
+          "portfolio-ac86c"
+        ]
+      }
+    }
+  }
+}
